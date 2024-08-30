@@ -18,6 +18,7 @@ import { AnneComponentComponent } from './anne-component/anne-component.componen
 import { AlbertoComponentsComponent } from './alberto-components/alberto-components.component';
 import { HarvieComponentComponent } from './harvie-component/harvie-component.component';
 import { AramayComponentComponent } from './aramay-component/aramay-component.component';
+import { LycaComponentComponent } from './lyca-component/lyca-component.component';
 
 export const routes: Routes = [
     { path: 'bravo-component', component: BravoComponentComponent },
@@ -41,6 +42,7 @@ export const routes: Routes = [
     { path: 'jp-component', component: JpComponentComponent },
     { path: 'alberto-component', component: AlbertoComponentsComponent },
     { path: 'harvie-component', component: HarvieComponentComponent},
-    { path: 'aramay-component', component: AramayComponentComponent}
+    { path: 'aramay-component', component: AramayComponentComponent},
+    { path: 'lyca-component', component: LycaComponentComponent}
   ];
 
