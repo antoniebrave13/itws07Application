@@ -32,8 +32,6 @@ export const routes: Routes = [
   { path: 'bueno-component', component: BuenoComponentComponent },
   { path: 'arlene-component', component: ArleneComponentComponent },
   { path: 'king-component', component: KingComponentComponent },
-  { path: 'arlene-component', component: ArleneComponentComponent },
-  { path: 'alche-component', component: AlcheComponentComponent },
   { path: 'curitana-component', component: CuritanaComponentComponent },
   { path: 'alche-component', component: AlcheComponentComponent },
   { path: 'froilan-component', component: FroilanComponentComponent },
@@ -44,7 +42,6 @@ export const routes: Routes = [
   { path: 'jessa-component', component: JessaComponentComponent },
   { path: 'alberto-component', component: AlbertoComponentsComponent },
   { path: 'harvie-component', component: HarvieComponentComponent },
-  { path: 'aramay-component', component: AramayComponentComponent },
   { path: 'lyca-component', component: LycaComponentComponent },
 ];
 
