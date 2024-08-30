@@ -11,6 +11,7 @@ import { KingComponentComponent } from './king-component/king-component.componen
 import { AlcheComponentComponent } from './alche-component/alche-component.component';
 import { FroilanComponentComponent } from './froilan-component/froilan-component.component';
 import { YuniComponentComponent } from './yuni-component/yuni-component.component';
+import { ElyComponentComponent } from './ely-component/ely-component.component';
 
 
 export const routes: Routes = [
@@ -27,7 +28,8 @@ export const routes: Routes = [
     { path: 'arlene-component', component: ArleneComponentComponent },
     { path: 'alche-component', component: AlcheComponentComponent },
     { path: 'froilan-component', component: FroilanComponentComponent },
-    { path: 'yuni-component', component: YuniComponentComponent }
+    { path: 'yuni-component', component: YuniComponentComponent },
+    { path: 'ely-component', component: ElyComponentComponent },
   ];
   
 
