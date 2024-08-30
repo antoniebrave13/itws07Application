@@ -11,10 +11,13 @@ import { KingComponentComponent } from './king-component/king-component.componen
 import { AlcheComponentComponent } from './alche-component/alche-component.component';
 import { CuritanaComponentComponent } from './curitana-component/curitana-component.component';
 import { FroilanComponentComponent } from './froilan-component/froilan-component.component';
+import { JpComponentComponent } from './jp-component/jp-component.component';
 import { YuniComponentComponent } from './yuni-component/yuni-component.component';
 import { ElyComponentComponent } from './ely-component/ely-component.component';
 import { AnneComponentComponent } from './anne-component/anne-component.component';
-
+import { AlbertoComponentsComponent } from './alberto-components/alberto-components.component';
+import { HarvieComponentComponent } from './harvie-component/harvie-component.component';
+import { AramayComponentComponent } from './aramay-component/aramay-component.component';
 
 export const routes: Routes = [
     { path: 'bravo-component', component: BravoComponentComponent },
@@ -28,14 +31,16 @@ export const routes: Routes = [
     { path: 'king-component', component: KingComponentComponent},
     { path: 'bueno-component', component: BuenoComponentComponent },
     { path: 'arlene-component', component: ArleneComponentComponent },
-    { path: 'alche-component', component: AlcheComponentComponent }, 
+    { path: 'alche-component', component: AlcheComponentComponent },
     {path: 'curitana-component', component: CuritanaComponentComponent},
     { path: 'alche-component', component: AlcheComponentComponent },
     { path: 'froilan-component', component: FroilanComponentComponent },
     { path: 'yuni-component', component: YuniComponentComponent },
     { path: 'ely-component', component: ElyComponentComponent },
     { path: 'anne-component', component: AnneComponentComponent },
-    
+    { path: 'jp-component', component: JpComponentComponent },
+    { path: 'alberto-component', component: AlbertoComponentsComponent },
+    { path: 'harvie-component', component: HarvieComponentComponent},
+    { path: 'aramay-component', component: AramayComponentComponent}
   ];
-  
 
