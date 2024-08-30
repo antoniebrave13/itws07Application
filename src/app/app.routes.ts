@@ -11,6 +11,7 @@ import { ArleneComponentComponent } from './arlene-component/arlene-component.co
 export const routes: Routes = [
     { path: 'bravo-component', component: BravoComponentComponent },
     { path: 'ela-component', component: ElaComponentComponent},
+    { path: 'ron-component', component: RonComponentComponent},
     { path: 'melvin-component', component: MelvinComponentComponent},
     { path: 'jastine-component', component: JastineComponentComponent},
     { path: 'angeline-component', component: AngelineComponentComponent},
