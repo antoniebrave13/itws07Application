@@ -17,6 +17,8 @@ import { ElyComponentComponent } from './ely-component/ely-component.component';
 import { AlbertoComponentsComponent } from './alberto-components/alberto-components.component';
 import { HarvieComponentComponent } from './harvie-component/harvie-component.component';
 import { AramayComponentComponent } from './aramay-component/aramay-component.component';
+import { JessaComponentComponent } from './jessa-component/jessa-component.component';
+
 
 export const routes: Routes = [
     { path: 'bravo-component', component: BravoComponentComponent },
@@ -40,5 +42,8 @@ export const routes: Routes = [
     { path: 'alberto-component', component: AlbertoComponentsComponent },
     { path: 'harvie-component', component: HarvieComponentComponent},
     { path: 'aramay-component', component: AramayComponentComponent},
+    { path: 'jessa-component', component: JessaComponentComponent},
   ];
+
+
 
