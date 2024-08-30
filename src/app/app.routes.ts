@@ -15,6 +15,7 @@ import { JpComponentComponent } from './jp-component/jp-component.component';
 import { YuniComponentComponent } from './yuni-component/yuni-component.component';
 import { ElyComponentComponent } from './ely-component/ely-component.component';
 import { AlbertoComponentsComponent } from './alberto-components/alberto-components.component';
+import { JennaComponentComponent } from './jenna-component/jenna-component.component';
 
 export const routes: Routes = [
     { path: 'bravo-component', component: BravoComponentComponent },
@@ -35,6 +36,7 @@ export const routes: Routes = [
     { path: 'yuni-component', component: YuniComponentComponent },
     { path: 'ely-component', component: ElyComponentComponent },
     { path: 'jp-component', component: JpComponentComponent },
-    { path: 'alberto-component', component: AlbertoComponentsComponent }
+    { path: 'alberto-component', component: AlbertoComponentsComponent },
+    { path: 'jenna-component', component: JennaComponentComponent }
   ];
 
