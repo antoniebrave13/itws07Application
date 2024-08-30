@@ -20,30 +20,35 @@ import { HarvieComponentComponent } from './harvie-component/harvie-component.co
 import { AlbertoComponentsComponent } from './alberto-components/alberto-components.component';
 import { JennaComponentComponent } from './jenna-component/jenna-component.component';
 import { LycaComponentComponent } from './lyca-component/lyca-component.component';
+import { MirariComponentComponent } from './mirari-component/mirari-component.component';
+
+
 
 export const routes: Routes = [
-    { path: 'bravo-component', component: BravoComponentComponent },
-    { path: 'ela-component', component: ElaComponentComponent},
-    { path: 'ron-component', component: RonComponentComponent},
-    { path: 'melvin-component', component: MelvinComponentComponent},
-    { path: 'jastine-component', component: JastineComponentComponent},
-    { path: 'angeline-component', component: AngelineComponentComponent},
-    { path: 'bueno-component', component: BuenoComponentComponent },
-    { path: 'arlene-component', component: ArleneComponentComponent },
-    { path: 'king-component', component: KingComponentComponent},
-    { path: 'alche-component', component: AlcheComponentComponent }, 
-    { path: 'curitana-component', component: CuritanaComponentComponent},
-    { path: 'froilan-component', component: FroilanComponentComponent },
-    { path: 'yuni-component', component: YuniComponentComponent },
-    { path: 'ely-component', component: ElyComponentComponent },
-    { path: 'jp-component', component: JpComponentComponent },
-    { path: 'alberto-component', component: AlbertoComponentsComponent },
-    { path: 'jenna-component', component: JennaComponentComponent },
-    { path: 'lyca-component', component: LycaComponentComponent },
-    { path: 'jessa-component', component: JessaComponentComponent },
-    { path: 'harvie-component', component: HarvieComponentComponent },
-    { path: 'aramay-component', component: AramayComponentComponent }
-  ];
+  { path: 'bravo-component', component: BravoComponentComponent },
+  { path: 'ela-component', component: ElaComponentComponent },
+  { path: 'ron-component', component: RonComponentComponent },
+  { path: 'melvin-component', component: MelvinComponentComponent },
+  { path: 'jastine-component', component: JastineComponentComponent },
+  { path: 'angeline-component', component: AngelineComponentComponent },
+  { path: 'bueno-component', component: BuenoComponentComponent },
+  { path: 'arlene-component', component: ArleneComponentComponent },
+  { path: 'king-component', component: KingComponentComponent },
+  { path: 'alche-component', component: AlcheComponentComponent },
+  { path: 'curitana-component', component: CuritanaComponentComponent },
+  { path: 'froilan-component', component: FroilanComponentComponent },
+  { path: 'yuni-component', component: YuniComponentComponent },
+  { path: 'ely-component', component: ElyComponentComponent },
+  { path: 'jp-component', component: JpComponentComponent },
+  { path: 'alberto-component', component: AlbertoComponentsComponent },
+  { path: 'jenna-component', component: JennaComponentComponent },
+  { path: 'lyca-component', component: LycaComponentComponent },
+  { path: 'jessa-component', component: JessaComponentComponent },
+  { path: 'harvie-component', component: HarvieComponentComponent },
+  { path: 'aramay-component', component: AramayComponentComponent },
+  { path: 'mirari-component', component: MirariComponentComponent }
+
+];
 
 
 
