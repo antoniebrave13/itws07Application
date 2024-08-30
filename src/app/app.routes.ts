@@ -9,6 +9,7 @@ import { BuenoComponentComponent } from './bueno-component/bueno-component.compo
 import { ArleneComponentComponent } from './arlene-component/arlene-component.component';
 import { KingComponentComponent } from './king-component/king-component.component';
 import { AlcheComponentComponent } from './alche-component/alche-component.component';
+import { FroilanComponentComponent } from './froilan-component/froilan-component.component';
 
 
 export const routes: Routes = [
@@ -23,6 +24,7 @@ export const routes: Routes = [
     { path: 'king-component', component: KingComponentComponent},
     { path: 'bueno-component', component: BuenoComponentComponent },
     { path: 'arlene-component', component: ArleneComponentComponent },
-    { path: 'alche-component', component: AlcheComponentComponent }
+    { path: 'alche-component', component: AlcheComponentComponent },
+    { path: 'froilan-component', component: FroilanComponentComponent }
   ];
 
