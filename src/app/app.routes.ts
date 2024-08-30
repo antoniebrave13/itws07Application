@@ -45,7 +45,8 @@ export const routes: Routes = [
     { path: 'lyca-component', component: LycaComponentComponent },
     { path: 'jessa-component', component: JessaComponentComponent },
     { path: 'alberto-component', component: AlbertoComponentsComponent },
-    { path: 'harvie-component', component: HarvieComponentComponent }
+    { path: 'harvie-component', component: HarvieComponentComponent },
+    { path: 'aramay-component', component: AramayComponentComponent }
   ];
 
 
