@@ -8,6 +8,8 @@ import { AngelineComponentComponent } from './angeline-component/angeline-compon
 import { BuenoComponentComponent } from './bueno-component/bueno-component.component';
 import { ArleneComponentComponent } from './arlene-component/arlene-component.component';
 import { KingComponentComponent } from './king-component/king-component.component';
+import { AlcheComponentComponent } from './alche-component/alche-component.component';
+
 
 export const routes: Routes = [
     { path: 'bravo-component', component: BravoComponentComponent },
@@ -19,5 +21,8 @@ export const routes: Routes = [
     { path: 'bueno-component', component: BuenoComponentComponent },
     { path: 'arlene-component', component: ArleneComponentComponent },
     { path: 'king-component', component: KingComponentComponent},
+    { path: 'bueno-component', component: BuenoComponentComponent },
+    { path: 'arlene-component', component: ArleneComponentComponent },
+    { path: 'alche-component', component: AlcheComponentComponent }
   ];
 
