@@ -9,9 +9,11 @@ import { BuenoComponentComponent } from './bueno-component/bueno-component.compo
 import { ArleneComponentComponent } from './arlene-component/arlene-component.component';
 import { KingComponentComponent } from './king-component/king-component.component';
 import { AlcheComponentComponent } from './alche-component/alche-component.component';
+import { CuritanaComponentComponent } from './curitana-component/curitana-component.component';
 import { FroilanComponentComponent } from './froilan-component/froilan-component.component';
 import { JpComponentComponent } from './jp-component/jp-component.component';
-
+import { YuniComponentComponent } from './yuni-component/yuni-component.component';
+import { ElyComponentComponent } from './ely-component/ely-component.component';
 
 export const routes: Routes = [
     { path: 'bravo-component', component: BravoComponentComponent },
@@ -25,11 +27,13 @@ export const routes: Routes = [
     { path: 'king-component', component: KingComponentComponent},
     { path: 'bueno-component', component: BuenoComponentComponent },
     { path: 'arlene-component', component: ArleneComponentComponent },
+    { path: 'alche-component', component: AlcheComponentComponent }, 
+    {path: 'curitana-component', component: CuritanaComponentComponent},
     { path: 'alche-component', component: AlcheComponentComponent },
     { path: 'froilan-component', component: FroilanComponentComponent },
+    { path: 'yuni-component', component: YuniComponentComponent },
+    { path: 'ely-component', component: ElyComponentComponent },
     { path: 'jp-component', component: JpComponentComponent }
-
-
-    
   ];
+  
 
