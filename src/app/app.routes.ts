@@ -7,6 +7,7 @@ import { JastineComponentComponent } from './jastine-component/jastine-component
 import { AngelineComponentComponent } from './angeline-component/angeline-component.component';
 import { BuenoComponentComponent } from './bueno-component/bueno-component.component';
 import { ArleneComponentComponent } from './arlene-component/arlene-component.component';
+import { KingComponentComponent } from './king-component/king-component.component';
 
 export const routes: Routes = [
     { path: 'bravo-component', component: BravoComponentComponent },
@@ -16,6 +17,7 @@ export const routes: Routes = [
     { path: 'jastine-component', component: JastineComponentComponent},
     { path: 'angeline-component', component: AngelineComponentComponent},
     { path: 'bueno-component', component: BuenoComponentComponent },
-    { path: 'arlene-component', component: ArleneComponentComponent }
+    { path: 'arlene-component', component: ArleneComponentComponent },
+    { path: 'king-component', component: KingComponentComponent},
   ];
 
