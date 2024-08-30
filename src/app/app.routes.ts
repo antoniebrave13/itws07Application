@@ -16,6 +16,10 @@ import { YuniComponentComponent } from './yuni-component/yuni-component.componen
 import { ElyComponentComponent } from './ely-component/ely-component.component';
 import { AramayComponentComponent } from './aramay-component/aramay-component.component';
 import { JessaComponentComponent } from './jessa-component/jessa-component.component';
+import { HarvieComponentComponent } from './harvie-component/harvie-component.component';
+import { AlbertoComponentsComponent } from './alberto-components/alberto-components.component';
+import { LycaComponentComponent } from './lyca-component/lyca-component.component';
+
 
 
 export const routes: Routes = [
@@ -38,6 +42,10 @@ export const routes: Routes = [
     { path: 'jp-component', component: JpComponentComponent },
     { path: 'aramay-component', component: AramayComponentComponent },
     { path: 'jessa-component', component: JessaComponentComponent}
+    { path: 'alberto-component', component: AlbertoComponentsComponent },
+    { path: 'harvie-component', component: HarvieComponentComponent},
+    { path: 'aramay-component', component: AramayComponentComponent},
+    { path: 'lyca-component', component: LycaComponentComponent},
   ];
 
 
