@@ -13,6 +13,7 @@ import { CuritanaComponentComponent } from './curitana-component/curitana-compon
 import { FroilanComponentComponent } from './froilan-component/froilan-component.component';
 import { YuniComponentComponent } from './yuni-component/yuni-component.component';
 import { ElyComponentComponent } from './ely-component/ely-component.component';
+import { AnneComponentComponent } from './anne-component/anne-component.component';
 
 
 export const routes: Routes = [
@@ -33,6 +34,8 @@ export const routes: Routes = [
     { path: 'froilan-component', component: FroilanComponentComponent },
     { path: 'yuni-component', component: YuniComponentComponent },
     { path: 'ely-component', component: ElyComponentComponent },
+    { path: 'anne-component', component: AnneComponentComponent },
+    
   ];
   
 
