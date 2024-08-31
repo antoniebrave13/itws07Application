@@ -22,6 +22,8 @@ import { JennaComponentComponent } from './jenna-component/jenna-component.compo
 import { LycaComponentComponent } from './lyca-component/lyca-component.component';
 import { MirariComponentComponent } from './mirari-component/mirari-component.component';
 import { PeningComponentComponent } from './pening-component/pening-component.component';
+import { MonicaComponentComponent } from './monica-component/monica-component.component';
+
 
 
 
@@ -50,7 +52,8 @@ export const routes: Routes = [
   { path: 'harvie-component', component: HarvieComponentComponent },
   { path: 'aramay-component', component: AramayComponentComponent },
   { path: 'mirari-component', component: MirariComponentComponent },
-  { path: 'pening-component', component: PeningComponentComponent }
+  { path: 'pening-component', component: PeningComponentComponent },
+  { path: 'monica-component', component: MonicaComponentComponent }
 ];
 
 
