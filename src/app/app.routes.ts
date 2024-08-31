@@ -23,11 +23,7 @@ import { LycaComponentComponent } from './lyca-component/lyca-component.componen
 import { MirariComponentComponent } from './mirari-component/mirari-component.component';
 import { PeningComponentComponent } from './pening-component/pening-component.component';
 import { MonicaComponentComponent } from './monica-component/monica-component.component';
-
-
-
-
-
+import { AnneComponentComponent } from './anne-component/anne-component.component';
 
 export const routes: Routes = [
   { path: 'bravo-component', component: BravoComponentComponent },
@@ -53,8 +49,7 @@ export const routes: Routes = [
   { path: 'aramay-component', component: AramayComponentComponent },
   { path: 'mirari-component', component: MirariComponentComponent },
   { path: 'pening-component', component: PeningComponentComponent },
-  { path: 'monica-component', component: MonicaComponentComponent }
+  { path: 'monica-component', component: MonicaComponentComponent },
+  { path: 'curitana-component', component: CuritanaComponentComponent },
+  { path: 'anne-component', component: AnneComponentComponent },
 ];
-
-
-
