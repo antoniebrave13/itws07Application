@@ -24,6 +24,7 @@ import { MirariComponentComponent } from './mirari-component/mirari-component.co
 import { PeningComponentComponent } from './pening-component/pening-component.component';
 import { MonicaComponentComponent } from './monica-component/monica-component.component';
 import { AnneComponentComponent } from './anne-component/anne-component.component';
+import { KristineComponentComponent } from './kristine-component/kristine-component.component';
 
 export const routes: Routes = [
   { path: 'bravo-component', component: BravoComponentComponent },
@@ -51,4 +52,5 @@ export const routes: Routes = [
   { path: 'pening-component', component: PeningComponentComponent },
   { path: 'monica-component', component: MonicaComponentComponent },
   { path: 'anne-component', component: AnneComponentComponent },
+  { path: 'kristine-component', component: KristineComponentComponent},
 ];
