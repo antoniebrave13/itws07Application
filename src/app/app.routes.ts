@@ -50,6 +50,5 @@ export const routes: Routes = [
   { path: 'mirari-component', component: MirariComponentComponent },
   { path: 'pening-component', component: PeningComponentComponent },
   { path: 'monica-component', component: MonicaComponentComponent },
-  { path: 'curitana-component', component: CuritanaComponentComponent },
   { path: 'anne-component', component: AnneComponentComponent },
 ];
