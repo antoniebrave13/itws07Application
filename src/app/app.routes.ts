@@ -86,4 +86,7 @@ export const routes: Routes = [
   { path: 'ron-component', 
     component: RonComponentComponent 
   },
+  { path: 'ely-component', 
+    component: ElyComponentComponent 
+  },
 ];
