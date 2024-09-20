@@ -26,6 +26,10 @@ import { MonicaComponentComponent } from './monica-component/monica-component.co
 import { AnneComponentComponent } from './anne-component/anne-component.component';
 import { KristineComponentComponent } from './kristine-component/kristine-component.component';
 import { HomeComponent } from './home/home.component';
+import { IsraComponentComponent } from './isra-component/isra-component.component';
+import { GanteComponentComponent } from './gante-component/gante-component.component';
+import { AgbuyaComponentComponent } from './agbuya-component/agbuya-component.component';
+import { RanaComponentComponent } from './rana-component/rana-component.component';
 
 // export const routes: Routes = [
 //   { path: 'bravo-component', component: BravoComponentComponent },
@@ -71,13 +75,31 @@ export const routes: Routes = [
     path: 'app-kristine-component',
     component: KristineComponentComponent,
   },
-  { path: 'anne-component', 
-    component: AnneComponentComponent },
+  { path: 'anne-component', component: AnneComponentComponent },
   {
     path: 'bueno-component',
     component: BuenoComponentComponent,
   },
-  { path: 'ela-component', 
-    component: ElaComponentComponent 
+  { path: 'ela-component', component: ElaComponentComponent },
+
+  {
+    path: 'isra-component',
+    component: IsraComponentComponent,
+  },
+  {
+    path: 'gante-component',
+    component: GanteComponentComponent,
+  },
+  {
+    path: 'agbuya-component',
+    component: AgbuyaComponentComponent,
+  },
+  {
+    path: 'rana-component',
+    component: RanaComponentComponent,
+  },
+  {
+    path: 'jastine-component',
+    component: JastineComponentComponent,
   },
 ];
