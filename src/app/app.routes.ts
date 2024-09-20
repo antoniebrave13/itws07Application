@@ -80,4 +80,7 @@ export const routes: Routes = [
   { path: 'ela-component', 
     component: ElaComponentComponent 
   },
+  { path: 'alche-component', 
+    component: AlcheComponentComponent 
+  },
 ];
