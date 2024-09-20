@@ -61,19 +61,20 @@ export const routes: Routes = [
     redirectTo: 'app-home',
     pathMatch: 'full',
   },
-  { path: 'app-home', 
-    component: HomeComponent 
+  { path: 'app-home', component: HomeComponent },
+  {
+    path: 'bravo-component',
+    component: BravoComponentComponent,
   },
-  { 
-    path: 'bravo-component', 
-    component: BravoComponentComponent 
-  },
-  
+
   {
     path: 'app-kristine-component',
-    component: KristineComponentComponent 
+    component: KristineComponentComponent,
   },
   { path: 'anne-component', 
-    component: AnneComponentComponent 
+    component: AnneComponentComponent },
+  {
+    path: 'bueno-component',
+    component: BuenoComponentComponent,
   },
 ];
