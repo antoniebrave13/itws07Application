@@ -77,4 +77,7 @@ export const routes: Routes = [
     path: 'bueno-component',
     component: BuenoComponentComponent,
   },
+  { path: 'ela-component', 
+    component: ElaComponentComponent 
+  },
 ];
