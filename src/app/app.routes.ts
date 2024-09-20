@@ -100,4 +100,7 @@ export const routes: Routes = [
   { path: 'ely-component', 
     component: ElyComponentComponent 
   },
+  { path: 'arlene-component', 
+    component: ArleneComponentComponent 
+  },
 ];
