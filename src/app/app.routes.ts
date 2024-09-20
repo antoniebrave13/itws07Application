@@ -94,4 +94,7 @@ export const routes: Routes = [
   { path: 'alche-component', 
     component: AlcheComponentComponent 
   },
+  { path: 'ron-component', 
+    component: RonComponentComponent 
+  },
 ];
