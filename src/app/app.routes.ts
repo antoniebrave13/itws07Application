@@ -103,4 +103,7 @@ export const routes: Routes = [
   { path: 'arlene-component', 
     component: ArleneComponentComponent 
   },
+  { path: 'yuni-component', 
+    component: YuniComponentComponent 
+  },
 ];
