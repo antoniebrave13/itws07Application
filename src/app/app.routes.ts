@@ -76,4 +76,7 @@ export const routes: Routes = [
   { path: 'anne-component', 
     component: AnneComponentComponent 
   },
+  { path: 'ela-component', 
+    component: ElaComponentComponent 
+  },
 ];
