@@ -66,7 +66,18 @@ export const routes: Routes = [
     path: 'bravo-component',
     component: BravoComponentComponent,
   },
-
+  { 
+    path: 'angeline-component',
+     component: AngelineComponentComponent 
+  },
+  
+  {
+    path: 'curitana-component',
+     component: CuritanaComponentComponent
+  },
+  { path: 'mirari-component', 
+    component: MirariComponentComponent
+  },
   {
     path: 'app-kristine-component',
     component: KristineComponentComponent,
@@ -85,5 +96,8 @@ export const routes: Routes = [
   },
   { path: 'harvie-component', 
     component: HarvieComponentComponent 
+  },
+  { path: 'ely-component', 
+    component: ElyComponentComponent 
   },
 ];
