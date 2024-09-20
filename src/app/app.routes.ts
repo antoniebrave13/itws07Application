@@ -61,8 +61,10 @@ export const routes: Routes = [
     redirectTo: 'app-home',
     pathMatch: 'full',
   },
-  { path: 'app-home', 
-    component: HomeComponent 
+  { path: 'app-home', component: HomeComponent },
+  {
+    path: 'bravo-component',
+    component: BravoComponentComponent,
   },
   { 
     path: 'angeline-component',
@@ -75,5 +77,21 @@ export const routes: Routes = [
   },
   { path: 'mirari-component', 
     component: MirariComponentComponent
+  },
+  {
+    path: 'app-kristine-component',
+    component: KristineComponentComponent,
+  },
+  { path: 'anne-component', 
+    component: AnneComponentComponent },
+  {
+    path: 'bueno-component',
+    component: BuenoComponentComponent,
+  },
+  { path: 'ela-component', 
+    component: ElaComponentComponent 
+  },
+  { path: 'alche-component', 
+    component: AlcheComponentComponent 
   },
 ];
