@@ -65,15 +65,15 @@ export const routes: Routes = [
     component: HomeComponent 
   },
   { 
-    path: 'bravo-component', 
-    component: BravoComponentComponent 
+    path: 'angeline-component',
+     component: AngelineComponentComponent 
   },
   
   {
-    path: 'app-kristine-component',
-    component: KristineComponentComponent 
+    path: 'curitana-component',
+     component: CuritanaComponentComponent
   },
-  { path: 'anne-component', 
-    component: AnneComponentComponent 
+  { path: 'mirari-component', 
+    component: MirariComponentComponent
   },
 ];
