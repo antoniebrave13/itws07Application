@@ -25,32 +25,55 @@ import { PeningComponentComponent } from './pening-component/pening-component.co
 import { MonicaComponentComponent } from './monica-component/monica-component.component';
 import { AnneComponentComponent } from './anne-component/anne-component.component';
 import { KristineComponentComponent } from './kristine-component/kristine-component.component';
+import { HomeComponent } from './home/home.component';
 
+// export const routes: Routes = [
+//   { path: 'bravo-component', component: BravoComponentComponent },
+//   { path: 'ela-component', component: ElaComponentComponent },
+//   { path: 'ron-component', component: RonComponentComponent },
+//   { path: 'melvin-component', component: MelvinComponentComponent },
+//   { path: 'jastine-component', component: JastineComponentComponent },
+//   { path: 'angeline-component', component: AngelineComponentComponent },
+//   { path: 'bueno-component', component: BuenoComponentComponent },
+//   { path: 'arlene-component', component: ArleneComponentComponent },
+//   { path: 'king-component', component: KingComponentComponent },
+//   { path: 'alche-component', component: AlcheComponentComponent },
+//   { path: 'curitana-component', component: CuritanaComponentComponent },
+//   { path: 'froilan-component', component: FroilanComponentComponent },
+//   { path: 'yuni-component', component: YuniComponentComponent },
+//   { path: 'ely-component', component: ElyComponentComponent },
+//   { path: 'jp-component', component: JpComponentComponent },
+//   { path: 'alberto-component', component: AlbertoComponentsComponent },
+//   { path: 'jenna-component', component: JennaComponentComponent },
+//   { path: 'lyca-component', component: LycaComponentComponent },
+//   { path: 'jessa-component', component: JessaComponentComponent },
+//   { path: 'harvie-component', component: HarvieComponentComponent },
+//   { path: 'aramay-component', component: AramayComponentComponent },
+//   { path: 'mirari-component', component: MirariComponentComponent },
+//   { path: 'pening-component', component: PeningComponentComponent },
+//   { path: 'monica-component', component: MonicaComponentComponent },
+//   { path: 'anne-component', component: AnneComponentComponent },
+//   { path: 'kristine-component', component: KristineComponentComponent},
+// ];
 export const routes: Routes = [
-  { path: 'bravo-component', component: BravoComponentComponent },
-  { path: 'ela-component', component: ElaComponentComponent },
-  { path: 'ron-component', component: RonComponentComponent },
-  { path: 'melvin-component', component: MelvinComponentComponent },
-  { path: 'jastine-component', component: JastineComponentComponent },
-  { path: 'angeline-component', component: AngelineComponentComponent },
-  { path: 'bueno-component', component: BuenoComponentComponent },
-  { path: 'arlene-component', component: ArleneComponentComponent },
-  { path: 'king-component', component: KingComponentComponent },
-  { path: 'alche-component', component: AlcheComponentComponent },
-  { path: 'curitana-component', component: CuritanaComponentComponent },
-  { path: 'froilan-component', component: FroilanComponentComponent },
-  { path: 'yuni-component', component: YuniComponentComponent },
-  { path: 'ely-component', component: ElyComponentComponent },
-  { path: 'jp-component', component: JpComponentComponent },
-  { path: 'alberto-component', component: AlbertoComponentsComponent },
-  { path: 'jenna-component', component: JennaComponentComponent },
-  { path: 'lyca-component', component: LycaComponentComponent },
-  { path: 'jessa-component', component: JessaComponentComponent },
-  { path: 'harvie-component', component: HarvieComponentComponent },
-  { path: 'aramay-component', component: AramayComponentComponent },
-  { path: 'mirari-component', component: MirariComponentComponent },
-  { path: 'pening-component', component: PeningComponentComponent },
-  { path: 'monica-component', component: MonicaComponentComponent },
-  { path: 'anne-component', component: AnneComponentComponent },
-  { path: 'kristine-component', component: KristineComponentComponent},
+  {
+    path: '',
+    redirectTo: 'app-home',
+    pathMatch: 'full',
+  },
+  { path: 'app-home', 
+    component: HomeComponent 
+  },
+  { 
+    path: 'bravo-component', 
+    component: BravoComponentComponent 
+  },
+  
+  {
+    path: 'app-kristine-component',
+    component: KristineComponentComponent 
+  },
+  { path: 'anne-component', 
+    component: AnneComponentComponent 
+  },
 ];
