@@ -128,4 +128,8 @@ export const routes: Routes = [
   { path: 'yuni-component', 
     component: YuniComponentComponent 
   },
+  {
+    path: 'ron-component',
+    component: RonComponentComponent,
+  },
 ];

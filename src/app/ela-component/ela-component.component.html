@@ -1,6 +1,12 @@
 <p>ela-component works!</p>
-<p>My name is : {{fullName}} from {{course}}</p>
+<!-- <p>My name is : {{fullName}} from {{course}}</p>
 <p>
     User Info : Age : {{userInfo.age}},
     <br> Gender: {{userInfo.gender}}
-</p>
+</p> -->
+<!-- <label for="FirstName">First Name</label>
+<input type="text" [value]="FirstName"> -->
+<!-- <h1>{{Title}}</h1>
+<p>{{Body}}</p> -->
+<label>Add an item: <input #newItem></label>
+<button (click)="addNewItem(newItem.value)">Add to parent's list</button>

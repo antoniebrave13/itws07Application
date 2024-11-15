@@ -1,1 +1,5 @@
 <router-outlet></router-outlet>
+<app-ela-component (NewItemEvent)="addItem($event)"></app-ela-component>
+<ul>
+    <li *ngFor="let item of items">{{item}}</li>
+</ul>
