@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './melvin-component.component.css'
 })
 export class MelvinComponentComponent {
-
+  fullName: string = "Melvin Dioses";
+  course : string = "BSIT-4A";
+  userInfo : any = {
+    age: 25,
+    gender: "Male"
+  }
 }

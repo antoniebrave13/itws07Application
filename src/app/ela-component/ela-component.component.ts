@@ -9,5 +9,10 @@ import { RouterLink } from '@angular/router';
   styleUrl: './ela-component.component.css'
 })
 export class ElaComponentComponent {
-
+fullName: string = "Christine Angela Belogot";
+course : string = "BSIT-4A";
+userInfo : any = {
+  age: 25,
+  gender: "Female"
+}
 }
